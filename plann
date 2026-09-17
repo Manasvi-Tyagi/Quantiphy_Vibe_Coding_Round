@@ -1,0 +1,20 @@
+entities 
+- User
+  - id, name, email, avatarUrl, createdAt
+- Project
+  - Represents a Kanban workspace/board.
+  - id, name, description, createdBy, createdAt
+- ProjectMember
+  - Joins users to projects and stores permissions.
+  - projectId, userId, role (owner, admin, member, viewer)
+- Column / TaskStatus
+  - The project’s workflow stages: To-Do, In Progress, Done.
+  - id, projectId, name, position
+- Task
+  - Individual Kanban card.
+  - id, projectId, columnId, title, description, priority, dueDate, position, createdBy, timestamps
+- TaskAssignment
+  - Connects tasks to one or more users.
+  - taskId, userId, assignedAt
+- Label
+  - id, projectId, name, color
