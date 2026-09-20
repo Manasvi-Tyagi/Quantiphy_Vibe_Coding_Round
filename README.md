@@ -1,19 +1,18 @@
 # Problem Statement: Task Management App
 The Mission: Create a streamlined task management application with Kanban-style
 organization for personal or team productivity.
-Frontend UI & User Interaction:
 
-● Kanban Board: Three columns: 'To-Do', 'In Progress', 'Done', with drag-and-drop
-capability.
-● Task Cards: Individual items with priority tags, due dates, and descriptions.
-● User Controls: Buttons to create tasks, add users to projects, and filter by priority.
+Frontend UI & User Interaction:
+   - Kanban Board: Three columns: 'To-Do', 'In Progress', 'Done', with drag-and-drop capability.
+   - Task Cards: Individual items with priority tags, due dates, and descriptions.
+   - User Controls: Buttons to create tasks, add users to projects, and filter by priority.
+     
 Backend Logic & State Management:
-● Custom CRUD API: Manages task states and user associations.
-● Relational Data: PostgreSQL stores task hierarchy (projects -> tasks) and user
-permissions.
-The Vibe Check: Introduce "Workload Balancing." Add a counter to each column indicating the
-number of tasks. If any user has more than 5 tasks in "In Progress", the background color of their
-avatar in the team list must pulse red to warn of potential burnout.
+   - Custom CRUD API: Manages task states and user associations.
+   - Relational Data: PostgreSQL stores task hierarchy (projects -> tasks) and user permissions.
+
+The Vibe Check:
+   - Introduce "Workload Balancing." Add a counter to each column indicating the number of tasks. If any user has more than 5 tasks in "In Progress", the background color of their avatar in the team list must pulse red to warn of potential burnout.
 
 # Kanban Task Manager
 
