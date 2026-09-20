@@ -2,6 +2,7 @@
 The Mission: Create a streamlined task management application with Kanban-style
 organization for personal or team productivity.
 Frontend UI & User Interaction:
+
 ● Kanban Board: Three columns: 'To-Do', 'In Progress', 'Done', with drag-and-drop
 capability.
 ● Task Cards: Individual items with priority tags, due dates, and descriptions.
